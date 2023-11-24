@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := motorola
 
-COMMON_PATH := device/motorola/sm6375-common
+# COMMON_PATH := device/motorola/sm6375-common
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

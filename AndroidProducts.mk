@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_bangkk.mk
+
+COMMON_LUNCH_CHOICES :=  \
+    twrp_bangkk-userdebug \
+    twrp_bangkk-user \
+    twrp_bangkk-eng
