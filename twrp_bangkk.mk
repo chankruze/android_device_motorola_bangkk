@@ -31,3 +31,12 @@ PRODUCT_MANUFACTURER := motorola
 
 # Assert (bangkk,XT2347-2)
 TARGET_OTA_ASSERT_DEVICE := bangkk # bangkk,XT2347-2
+
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
+
+# PRODUCT_BUILD_PROP_OVERRIDES += \
+#     PRODUCT_NAME=bangkk_g \
+#     BUILD_PRODUCT=bangkk_g \
+#     TARGET_DEVICE=bangkk
