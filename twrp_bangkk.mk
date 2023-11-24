@@ -14,10 +14,8 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/bangkk
-
-# Inherit from device.mk configuration
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+# TWRP common
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := bangkk
